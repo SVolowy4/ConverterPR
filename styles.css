@@ -1,0 +1,69 @@
+body {
+   background-color: #000000;
+}
+
+.title {
+   text-align: center;
+   color: #F72798;
+}
+.input {
+   text-align: center;
+}
+input {
+   background-color: #000000;
+   color: #F72798;
+   font-size: 1.5rem;
+   text-align: center;
+   padding: 10px 20px 10px 20px;
+   border-radius: 20%;
+   border-color: #F57D1F;
+}
+input::placeholder {
+   color: #F72798;
+}
+
+.button {
+   text-align: center;
+}
+button {
+   width: 100%;
+   padding: 10px 0 10px 0;
+   font-size: 1.5rem;
+   background-color: #F72798;
+   color: #000000;
+   border-radius: 10px;
+}
+.contentBox {
+   width: 100%;
+   height: 50px;
+   border: 1px dashed #f9f9f7;
+   border-radius: 50%;
+   margin: 30px auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: 1.5rem;
+}
+.content {
+   color: #F57D1F;
+}
+
+.links {
+   text-align: center;
+   background-color: #F57D1F;
+}
+.link:not(:last-child) {
+   margin-bottom: 10px;
+}
+a {
+   color: #000000;
+   font-size: 1.5rem;
+}
+p {
+   color: #000000;
+   font-size: 1.5rem;
+}
+span {
+   font-weight: bold;
+}
