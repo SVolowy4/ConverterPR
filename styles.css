@@ -1,18 +1,16 @@
 body {
+
    background-color:#222831 ;
+
    font-family: 'Courier New', Courier, monospace
 }
 
 .form {
-   margin-top: 100px;
+   margin-top: 200px;
    background-color: #393E46;
    text-align: center;
    border-radius: 4px 4px 0 0;
-}
-
-h1 {
-   padding-top: 15px;
-   font-size: 2.5em;
+   font-size: 20px;
 }
 
 #input {
@@ -34,26 +32,31 @@ button {
    color: rgb(255, 0, 0);
    border: none;
    font-size: 18px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .jars {
    text-align: center;
-   background-color: #393e4669;
+   font-weight: bold
 }
 .jars :not(:last-child) {
    margin-bottom: 10px;
 }
 
+.cards {
+    text-align: center;
+}
+.cards :not(:last-child) {
+    margin-bottom: 10px;
+}
+
 a {
    color: #EEEEEE;
-   font-size: 18px;
+   font-size: 25px;
    font-weight: bold;
    text-decoration-color: #00acb59d;
 }
-p {
-   color: #EEEEEE;
-   font-weight: bold;
-}
-span {
-   color: #00acb59d;
+
+.link {
+    background-color: #393e4669;
 }
