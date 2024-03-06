@@ -7,7 +7,7 @@ let content = document.getElementById('content')
 function convert () {
    let count = input.value;
    let tips = (parseInt(count) * (0.35/100));
-   content.style.color ='#00acb59d'
+   content.style.color ='white'
    content.style.fontSize = '3.5em'
    content.style.fontWeight = 'bold'
    content.style.backgroundColor = 'black'
