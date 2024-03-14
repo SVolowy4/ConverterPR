@@ -41,6 +41,11 @@ button {
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+h2 {
+   background-color: white;
+   width: 85px;
+}
+
 .jars {
    text-align: center;
    font-weight: bold
@@ -65,4 +70,10 @@ a {
 
 .link {
     background-color: #393e4669;
+}
+.insert {
+   margin-top: -10px;
+   background-color: black;
+   color: white;
+   text-align: center;
 }
