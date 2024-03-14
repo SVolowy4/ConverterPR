@@ -80,10 +80,15 @@ a {
     background-color: #393e4669;
 }
 .insert {
-   margin-top: -10px;
+   margin-top: -1px;
    background-color: black;
    color: white;
    text-align: center;
    animation-name: visible;
    animation-duration: 8s;
+}
+
+.insertInside {
+   animation-name: visible;
+   animation-duration: 10s;
 }

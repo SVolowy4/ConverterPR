@@ -13,7 +13,7 @@ function convert () {
    content.style.backgroundColor = 'black'
    content.textContent = tips.toFixed(0)
    content.insertAdjacentHTML('afterend', `
-   <p class="insert">Затисни цю суму до появи "Копіювати"</br></br>За твоїм бажанням вона може бути скинута по реквізитам за посиланнями нижче</p>
+   <p class="insert">↑↑↑</br>Затисни цю суму до появи "Копіювати"</br></br><span class="insertInside">За твоїм бажанням вона може бути скинута по реквізитам за посиланнями нижче</br>↓↓↓</span></p>
    <h2>Банки:</h2>
    <div class="jars">
    <div class="link">
