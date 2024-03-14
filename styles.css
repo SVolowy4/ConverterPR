@@ -18,6 +18,10 @@ body {
 @keyframes slideLeft {
    from{transform: translateX(100%)}
 }
+@keyframes visible {
+   0%    { opacity: 0; }
+   100%  { opacity: 1; }
+ }
 
 #input {
    padding: 20px 0;
@@ -48,7 +52,9 @@ h2 {
 
 .jars {
    text-align: center;
-   font-weight: bold
+   font-weight: bold;
+   animation-name: slideLeft;
+   animation-duration: 1s;
 }
 .jars :not(:last-child) {
    margin-bottom: 10px;
@@ -56,6 +62,8 @@ h2 {
 
 .cards {
     text-align: center;
+    animation-name: slideLeft;
+    animation-duration: 2s;
 }
 .cards :not(:last-child) {
     margin-bottom: 10px;
@@ -76,4 +84,5 @@ a {
    background-color: black;
    color: white;
    text-align: center;
+   animation: visible 2s infinite;
 }
