@@ -19,6 +19,6 @@ const input = document.getElementById('convertorHowMuch')
 const result = document.getElementById('convertorResultNum')
 
 function convert() {
-   let tips = Math.round(parseInt(input.value) * (0.35/100));
+   let tips = input.value * (0.35/100);
    result.textContent = tips.toFixed(2)
 }
