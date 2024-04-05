@@ -4,10 +4,48 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="style.css">
-   <script src="index.js"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Rubik+Scribble&family=Russo+One&display=swap" rel="stylesheet">
+   <script src="index.js" defer></script>
    <title>Waiter Tools</title>
 </head>
 <body>
-   
+   <div id="calculatorContainer">
+      <div id="calculatorTitle">
+         <h1>На господинь:</h1>
+      </div>
+      <div id="calculator">
+         <span id="words">З </span><input id="howMuch" type="number" value="0"><span id="words"> фіців</span>
+         <div>
+            <button id="calculatorButton" onclick="count()">Розрахувати</button>
+         </div>
+      </div>
+      <div id="calculatorResult">
+         <span id="resultNum">0.00</span><span id="resultWrd"> грн</span>
+      </div>
+   </div>
+   <hr>
+   <div id="convertorContainer">
+      <div id="conventorTitle">
+         <h1>Конвертатор<br/>ТовароОбігу</h1>
+      </div>
+      <div id="convertor">
+         <input id="convertorHowMuch" type="number" value="0">
+         <div>
+            <button id="convertorButton" onclick="convert()">⇄</button>
+         </div>
+      </div>
+      <div id="convertorResult">
+         <span id="convertorResultNum">0.00</span><span id="convertorResWrd"> грн</span>
+      </div>
+      <hr>
+      <div id="jars">
+         <h1>Банки:</h1>
+         <div id="Death"><a href="https://send.monobank.ua/jar/83kMwShVbB">Смерть Русні</a></div>
+         <div id="Kitchen"><a href="https://send.monobank.ua/jar/A16UrC2X5w">Кухня / Кондитери</a></div>
+         <div id="Bar"><a href="https://send.monobank.ua/44tm2c3wn">Бар / Каса</a></div>
+         <div id="Runner"><a href="https://send.monobank.ua/6UpwM2ETT4">Ранер</a></div>
+   </div>
 </body>
 </html>

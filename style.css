@@ -1,0 +1,115 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-color: #222831;
+   font-family: "Russo One", sans-serif;
+   color: #EEEEEE;
+}
+
+#calculatorContainer {
+   text-align: center;
+   margin-top: 50px;
+}
+
+#calculator {
+   padding-top: 10px;
+   background-color: #31363F;
+}
+#words {
+   font-size: 30px;
+}
+#howMuch {
+   width: 30px;
+   height: 30px;
+   font-size: 30px;
+   margin: 0 10px 0 10px;
+}
+#calculatorButton {
+   margin-top: 10px;
+   width: 100%;
+   height: 30px;
+   background-color: #76ABAE;
+   font-family: "Russo One", sans-serif;
+   color: black;
+}
+#calculatorResult {
+   font-size: 40px;
+}
+#resultNum {
+
+}
+#resultWrd {
+   font-size: 15px;
+}
+
+/******************CONVERTER************************************/
+
+#convertorContainer {
+   text-align: center;
+   margin-top: 50px;
+}
+
+#convertor {
+   padding-top: 10px;
+   background-color: #31363F;
+}
+#convertorWords {
+   font-size: 30px;
+}
+#convertorHowMuch {
+   width: 150px;
+   height: 30px;
+   font-size: 30px;
+   margin: 0 10px 0 10px;
+}
+#convertorButton {
+   margin-top: 10px;
+   width: 100%;
+   height: 30px;
+   background-color: #76ABAE;
+   font-family: "Russo One", sans-serif;
+   color: black;
+}
+#convertorResult {
+   font-size: 40px;
+}
+#convertorResultNum {
+
+}
+#convertorResWrd {
+   font-size: 15px;
+}
+#jars h1 {
+   font-size: 20px;
+}
+#Death {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: #31363F;
+   border: 1px solid #EEEEEE;
+}
+#Kitchen {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: #31363F;
+   border: 1px solid #EEEEEE;
+}
+#Bar {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: #31363F;
+   border: 1px solid #EEEEEE;
+}
+#Runner {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: #31363F;
+   border: 1px solid #EEEEEE;
+}
+a {
+   text-decoration: none;
+   color: aquamarine;
+}
