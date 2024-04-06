@@ -9,9 +9,16 @@ body {
    color: #EEEEEE;
 }
 
+#main {
+   width: 500px;
+   margin: 0 auto;
+   background-color: #161a20;
+   box-shadow: 1px 10px 10px 15px rgba(255, 0, 0, 0.292);
+}
+
 #calculatorContainer {
    text-align: center;
-   margin-top: 50px;
+   margin-top: 1px;
 }
 
 #calculator {
@@ -36,6 +43,9 @@ body {
    font-family: "Russo One", sans-serif;
    font-size: 30px;
    color: black;
+}
+#calculatorButton:hover {
+   background-color: rgba(255, 0, 0, 0.292);
 }
 #calculatorResult {
    font-size: 40px;
@@ -77,6 +87,9 @@ body {
    font-size: 30px;
    color: black;
 }
+#convertorButton:hover {
+   background-color: rgba(255, 0, 0, 0.292);
+}
 #convertorResult {
    font-size: 40px;
 }
@@ -95,11 +108,17 @@ body {
    background-color: #31363F;
    border: 1px solid #EEEEEE;
 }
+#Death:hover {
+   background-color: #00538e;
+}
 #Kitchen {
    padding-top: 10px;
    padding-bottom: 10px;
    background-color: #31363F;
    border: 1px solid #EEEEEE;
+}
+#Kitchen:hover {
+   background-color: #00538e;
 }
 #Bar {
    padding-top: 10px;
@@ -107,13 +126,26 @@ body {
    background-color: #31363F;
    border: 1px solid #EEEEEE;
 }
+#Bar:hover {
+   background-color: #00538e;
+}
 #Runner {
    padding-top: 10px;
    padding-bottom: 10px;
    background-color: #31363F;
    border: 1px solid #EEEEEE;
+   border-bottom: none;
+}
+#Runner:hover {
+   background-color: #00538e;
 }
 a {
    text-decoration: none;
    color: aquamarine;
+}
+
+/**********************************FOOTER***/
+
+footer {
+   text-align: center;
 }
