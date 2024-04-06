@@ -10,7 +10,7 @@ body {
 }
 
 #main {
-   width: 500px;
+   width: 380px;
    margin: 0 auto;
    background-color: #161a20;
    box-shadow: 1px 10px 10px 15px rgba(255, 0, 0, 0.292);
@@ -18,7 +18,7 @@ body {
 
 #calculatorContainer {
    text-align: center;
-   margin-top: 1px;
+   margin-top: 15px;
 }
 
 #calculator {
