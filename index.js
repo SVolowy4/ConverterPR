@@ -16,9 +16,22 @@ function count() {
 /****************CONVERTOR */
 
 const input = document.getElementById('convertorHowMuch')
-const result = document.getElementById('convertorResultNum')
+const convertorResultZ = document.getElementById('convertorResultZ')
+const convertorResultK = document.getElementById('convertorResultK')
+const convertorResultB = document.getElementById('convertorResultB')
+const convertorResultR = document.getElementById('convertorResultR')
+const convertorResultH = document.getElementById('convertorResultH')
+
 
 function convert() {
-   let tips = input.value * (0.35/100);
-   result.textContent = tips.toFixed(2)
+   let tipsforZ = input.value * (0.25/100);
+   convertorResultZ.textContent = tipsforZ.toFixed(2);
+   let tipsforF = input.value * (0.25/100);
+   convertorResultK.textContent = tipsforF.toFixed(2);
+   let tipsforB = input.value * (0.5 / 100);
+   convertorResultB.textContent = tipsforB.toFixed(2);
+   let tipsforR = input.value * (0.1 / 100);
+   convertorResultR.textContent = tipsforR.toFixed(2);
+   let tipsforH = input.value * (0.05 / 100);
+   convertorResultH.textContent = tipsforH.toFixed(2);
 }
