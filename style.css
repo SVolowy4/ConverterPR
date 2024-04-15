@@ -89,7 +89,7 @@ body {
    font-size: 40px;
 }
 #convertorResultNum {
-
+ font-size: 20px;
 }
 #convertorResWrd {
    font-size: 15px;
@@ -131,8 +131,12 @@ body {
    border: 1px solid #EEEEEE;
    border-bottom: none;
 }
-#Runner:hover {
-   background-color: #00538e;
+#Hostes {
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: #31363F;
+   border: 1px solid #EEEEEE;
+   border-bottom: none;
 }
 a {
    text-decoration: none;
