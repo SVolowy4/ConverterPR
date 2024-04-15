@@ -3,7 +3,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="styles.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Rubik+Scribble&family=Russo+One&display=swap" rel="stylesheet">
@@ -36,17 +36,33 @@
                <button id="convertorButton" onclick="convert()">⇄</button>
             </div>
          </div>
-         <div id="convertorResult">
-            <span id="convertorResultNum">0.00</span><span id="convertorResWrd"> грн</span>
-         </div>
          <hr>
          <div id="jars">
             <h1>Банки:</h1>
-            <div id="Death"><a target="_blank" href="https://send.monobank.ua/jar/83kMwShVbB">⚰️ Смерть Русні ⚰️</a></div>
-            <div id="Kitchen"><a href="https://send.monobank.ua/jar/A16UrC2X5w">🥘 Кухня / Кондитери 🥐 </a></div>
-            <div id="Bar"><a href="https://send.monobank.ua/44tm2c3wn">☕ Бар / Каса 💸</a></div>
-            <div id="Runner"><a href="https://send.monobank.ua/6UpwM2ETT4">🏃‍♀️🏃‍♀️ Ранер 🏃‍♀️</a></div>
-      </div>
+            <div id="Death"><a target="_blank" href="https://send.monobank.ua/jar/83kMwShVbB">⚰️ Смерть Русні</a>
+            <span id="convertorResultZ">0.00</span>
+            <span id="convertorResWrd"> грн</span>
+            </div>
+            <div id="Kitchen"><a href="https://send.monobank.ua/jar/A16UrC2X5w">🥘 Кухня / Кондитери </a>
+            <span id="convertorResultK">0.00</span>
+            <span id="convertorResWrd"> грн</span>
+            </div>
+            <div id="Bar"><a href="https://send.monobank.ua/44tm2c3wn">☕ Бар / Каса </a>
+            <span id="convertorResultB">0.00</span>
+            <span id="convertorResWrd"> грн</span>
+            </div>
+            <div id="Runner">
+                <span>Ранерам по  
+                <span id="convertorResultR">0.00</span>
+            <span id="convertorResWrd"> грн</span>
+                </span>
+            </div>
+            <div id="Hostes">
+                <span> Хостес   
+                <span id="convertorResultH">0.00</span>
+            <span id="convertorResWrd"> грн</span>
+                </span>
+            </div>
    </div>
    <footer>
       <span>by SVolovy4 on <a href="https://github.com/SVolowy4?tab=repositories">gitHub</a></span>
