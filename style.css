@@ -38,9 +38,11 @@ body {
    font-family: "Russo One", sans-serif;
    font-size: 30px;
    color: black;
+   border: outset;
 }
 #calculatorButton:hover {
    background-color: rgba(255, 0, 0, 0.292);
+   border: inset;
 }
 #calculatorResult {
    font-size: 40px;
@@ -106,11 +108,19 @@ body {
 #Death:hover {
    background-color: #00538e;
 }
+#convertorResultZ {
+    background-color: black;
+    padding: 5px 5px;
+}
 #Kitchen {
    padding-top: 10px;
    padding-bottom: 10px;
    background-color: #31363F;
    border: 1px solid #EEEEEE;
+}
+#convertorResultK {
+    background-color: black;
+    padding: 5px 5px;
 }
 #Kitchen:hover {
    background-color: #00538e;
@@ -124,12 +134,20 @@ body {
 #Bar:hover {
    background-color: #00538e;
 }
+#convertorResultB {
+    background-color: black;
+    padding: 5px 5px;
+}
 #Runner {
    padding-top: 10px;
    padding-bottom: 10px;
    background-color: #31363F;
    border: 1px solid #EEEEEE;
    border-bottom: none;
+}
+#convertorResultR {
+    background-color: black;
+    padding: 5px 5px;
 }
 #Hostes {
    padding-top: 10px;
@@ -138,9 +156,17 @@ body {
    border: 1px solid #EEEEEE;
    border-bottom: none;
 }
+#convertorResultH {
+    background-color: black;
+    padding: 5px 5px;
+}
 a {
    text-decoration: none;
    color: aquamarine;
+}
+
+#end {
+    text-align: left;
 }
 
 /**********************************FOOTER***/
