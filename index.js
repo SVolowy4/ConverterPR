@@ -20,6 +20,7 @@ const convertorResultZ = document.getElementById('convertorResultZ')
 const convertorResultK = document.getElementById('convertorResultK')
 const convertorResultB = document.getElementById('convertorResultB')
 const convertorResultR = document.getElementById('convertorResultR')
+const convertorResultRx2 = document.getElementById('convertorResultRx2')
 const convertorResultH = document.getElementById('convertorResultH')
 
 
@@ -32,6 +33,8 @@ function convert() {
    convertorResultB.textContent = tipsforB.toFixed(2);
    let tipsforR = input.value * (0.1 / 100);
    convertorResultR.textContent = tipsforR.toFixed(2);
+let tipsforRx2 = input.value *2* (0.1 / 100);
+   convertorResultRx2.textContent = tipsforRx2.toFixed(2);
    let tipsforH = input.value * (0.05 / 100);
    convertorResultH.textContent = tipsforH.toFixed(2);
 }
