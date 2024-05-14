@@ -21,6 +21,11 @@ const convertorResultK = document.getElementById('convertorResultK')
 const convertorResultB = document.getElementById('convertorResultB')
 const convertorResultR = document.getElementById('convertorResultR')
 const convertorResultH = document.getElementById('convertorResultH')
+const ofDay = document.getElementById('ofDay')
+
+if(today === 0 || today === 6) {
+  ofDay.style.display = "none"
+}
 
 
 function convert() {
