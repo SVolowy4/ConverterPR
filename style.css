@@ -169,8 +169,10 @@ a {
    color: aquamarine;
 }
 
-#end {
-    text-align: left;
+#workDay {
+  background-color: seagreen;
+  padding: 0 20px;
+  display: none;
 }
 
 /**********************************FOOTER***/
