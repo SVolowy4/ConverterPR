@@ -23,6 +23,12 @@ const convertorResultR = document.getElementById('convertorResultR')
 const convertorResultH = document.getElementById('convertorResultH')
 const ofDay = document.getElementById('ofDay')
 const workDay = document.getElementById('workDay')
+const deathBlock = document.getElementById('Death')
+const deathdeathAnchor = document.getElementById('deathAnchor')
+const kitchenBlock = document.getElementById('Kitchen')
+const kitchenAnchor = document.getElementById('kitchenAnchor')
+const barBlock = document.getElementById('Bar')
+const barAnchor = document.getElementById('barAnchor')
 
 if(today !== 0 || today !== 6) {
   ofDay.style.display = "none"
@@ -42,3 +48,33 @@ function convert() {
    let tipsforH = input.value * (0.05 / 100);
    convertorResultH.textContent = tipsforH.toFixed(2);
 }
+
+deathAnchor.addEventListener('click', event => (
+    
+    deathBlock.style.visibility = "hidden"
+    
+    ))
+    
+kitchenAnchor.addEventListener('click', event => (
+    
+    kitchenBlock.style.visibility = "hidden"
+    
+    ))
+    
+barAnchor.addEventListener('click', event => (
+
+    barBlock.style.visibility = "hidden"
+
+))
+
+barAnchor.addEventListener('click', event => (
+
+    barBlock.style.visibility = "hidden"
+
+))
+
+barAnchor.addEventListener('click', event => (
+
+    barBlock.style.visibility = "hidden"
+
+))
