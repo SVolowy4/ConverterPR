@@ -69,15 +69,3 @@ barAnchor.addEventListener('click', event => (
     barBlock.style.visibility = "hidden"
 
 ))
-
-barAnchor.addEventListener('click', event => (
-
-    barBlock.style.visibility = "hidden"
-
-))
-
-barAnchor.addEventListener('click', event => (
-
-    barBlock.style.visibility = "hidden"
-
-))
