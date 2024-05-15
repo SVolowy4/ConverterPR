@@ -16,6 +16,7 @@ function count() {
 /****************CONVERTOR */
 
 const input = document.getElementById('convertorHowMuch')
+const total = document.getElementById('total')
 const convertorResultZ = document.getElementById('convertorResultZ')
 const convertorResultK = document.getElementById('convertorResultK')
 const convertorResultB = document.getElementById('convertorResultB')
@@ -47,6 +48,8 @@ function convert() {
    convertorResultR.textContent = tipsforR.toFixed(2);
    let tipsforH = input.value * (0.05 / 100);
    convertorResultH.textContent = tipsforH.toFixed(2);
+let sum = tipsforZ+tipsforB+tipsforF+tipsforH+tipsforR;
+   total.textContent = sum.toFixed(2)
 }
 
 deathAnchor.addEventListener('click', event => (
