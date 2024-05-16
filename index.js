@@ -50,6 +50,12 @@ function convert() {
    convertorResultH.textContent = tipsforH.toFixed(2);
 let sum = tipsforZ+tipsforB+tipsforF+tipsforH+tipsforR;
    total.textContent = sum.toFixed(2)
+let sumOfWorkDay = sum - (tipsforH+tipsforR);
+   if (today !== 0 || today !==6) {
+       total.textContent = sumOfWorkDay.toFixed(2)
+   } else {
+       total.textContent = sum.toFixed(2)
+   }
 }
 
 deathAnchor.addEventListener('click', event => (
