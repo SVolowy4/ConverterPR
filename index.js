@@ -34,6 +34,9 @@ const barAnchor = document.getElementById('barAnchor')
 if(today !== 0 || today !== 6) {
   ofDay.style.display = "none"
   workDay.style.display = "block"
+} else {
+  ofDay.style.display = "block"
+  workDay.style.display = "none"
 }
 
 
