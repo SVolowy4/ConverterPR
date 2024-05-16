@@ -31,12 +31,12 @@ const kitchenAnchor = document.getElementById('kitchenAnchor')
 const barBlock = document.getElementById('Bar')
 const barAnchor = document.getElementById('barAnchor')
 
-if(today !== 0 || today !== 6) {
-  ofDay.style.display = "none"
-  workDay.style.display = "block"
-} else {
+if(today == 0 || today == 6) {
   ofDay.style.display = "block"
   workDay.style.display = "none"
+} else {
+  ofDay.style.display = "none"
+  workDay.style.display = "block"
 }
 
 
@@ -54,10 +54,10 @@ function convert() {
 let sum = tipsforZ+tipsforB+tipsforF+tipsforH+tipsforR;
    total.textContent = sum.toFixed(2)
 let sumOfWorkDay = sum - (tipsforH+tipsforR);
-   if (today !== 0 || today !==6) {
-       total.textContent = sumOfWorkDay.toFixed(2)
-   } else {
+   if (today == 0 || today ==6) {
        total.textContent = sum.toFixed(2)
+   } else {
+       total.textContent = sumOfWorkDay.toFixed(2)
    }
 }
 
