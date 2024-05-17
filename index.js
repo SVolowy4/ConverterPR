@@ -63,18 +63,19 @@ let sumOfWorkDay = sum - (tipsforH+tipsforR);
 
 deathAnchor.addEventListener('click', event => (
     
-    deathBlock.style.visibility = "hidden"
+    deathBlock.textContent = "Хай загинуть наші вороженьки"
     
     ))
     
 kitchenAnchor.addEventListener('click', event => (
     
-    kitchenBlock.style.visibility = "hidden"
+    kitchenBlock.textContent = "Щоб ручки не боліли в наших поварів та кондитерів"
     
     ))
     
 barAnchor.addEventListener('click', event => (
 
-    barBlock.style.visibility = "hidden"
+    barBlock.textContent = "Стресостійкості касиру та натхнення барменам"
 
 ))
+
