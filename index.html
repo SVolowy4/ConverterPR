@@ -3,7 +3,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="styles.css">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Rubik+Scribble&family=Russo+One&display=swap" rel="stylesheet">
@@ -11,65 +11,149 @@
    <title>Waiter Tools</title>
 </head>
 <body>
+  
+  <div id="calculatorContainer">
+    
+    <div id="calculatorTitle">
+      <h1>На господинь:</h1>
+    </div>
+    
+    <div id="calculator">
       
-   <div id="calculatorContainer">
-     <div id="calculatorTitle">
-        <h1>На господинь:</h1>
-     </div>
-        <div id="calculator">
-<span id="words">З </span><input id="howMuch" type="number" placeholder="0"><span id="words"> фіців</span>
-           <div>
-               <button id="calculatorButton" onclick="count()">Розрахувати</button>
-            </div>
-         </div>
+      <span id="words">З </span>
+      <input 
+      id="howMuch" 
+      type="number" 
+      placeholder="0">
+      <span id="words"> фіців</span>
+      
+      <div>
+        
+      <button 
+      id="calculatorButton" 
+      onclick="count()">Розрахувати
+      </button>
+      
+      </div>
+        
+    </div>
          <div id="calculatorResult">
             <span id="resultNum">0.00</span><span id="resultWrd"> грн</span>
          </div>
-      </div>
+    </div>
+      
+      
       <hr>
-      <div id="convertorContainer">
-         <div id="conventorTitle">
-            <h1>Конвертатор<br/>ТовароОбігу</h1>
-         </div>
-         <div id="convertor">
-            <input id="convertorHowMuch" type="number" placeholder="0">
-            <div>
-               <button id="convertorButton" onclick="convert()">⇄</button>
-            </div>
-         </div>
-         <hr>
-         <div id="jars">
-        <h1>на банки / карти = <span id="total">0</span><span> грн</span></h1>
-                     <div id="Death"><a id="deathAnchor" target="_blank" href="https://send.monobank.ua/jar/83kMwShVbB">⚰️ Смерть Русні</a>
+      
+      
+  <div id="convertorContainer">
+    
+    <div id="conventorTitle">
+      <h1>Конвертатор<br/>ТовароОбігу</h1>
+    </div>
+    
+    <div id="calculator">
+      
+      <input 
+      id="convertorHowMuch" 
+      type="number" 
+      placeholder="0">
+      
+      <div>
+        
+        <button 
+        id="calculatorButton" 
+        onclick="convert()">⇄
+        </button>
+        
+      </div>
+      
+    </div>
+         
+      <div id="jars">
+           
+        <h1>на банки / карти = 
+          <span id="total">0</span>
+          <span> грн</span>
+        </h1>
+        
+        <div id="Death">
+          
+          <div id="deathBlock">
+            
+            <a id="deathAnchor" 
+            target="_blank" 
+            href="https://send.monobank.ua/jar/83kMwShVbB">⚰️ Смерть Русні</a>
+            
+          </div>
+          
             <span id="convertorResultZ">0.00</span>
             <span id="convertorResWrd"> грн</span>
-            </div>
-            <div id="Kitchen"><a id="kitchenAnchor" href="https://send.monobank.ua/jar/A16UrC2X5w">🥘 Кухня / Кондитери </a>
-            <span id="convertorResultK">0.00</span>
-            <span id="convertorResWrd"> грн</span>
-            </div>
-            <div id="Bar"><a id="barAnchor" href="https://send.monobank.ua/44tm2c3wn">☕ Бар / Каса </a>
+            
+        </div>
+            
+        <div id="Kitchen">
+                
+          <div id="kitchenBlock">
+            
+            <a id="kitchenAnchor" 
+             href="https://send.monobank.ua/jar/A16UrC2X5w">🥘 Кухня / Кондитери 
+             </a>
+          
+          </div>
+              
+          <span id="convertorResultK">0.00
+           </span>
+          <span id="convertorResWrd"> грн</span>
+            
+        </div>
+            
+        <div id="Bar">
+          
+          <div id="barBlock">
+            
+            <a id="barAnchor" 
+          href="https://send.monobank.ua/44tm2c3wn">☕ Бар / Каса 
+            </a>
+            
+          </div>
+          
             <span id="convertorResultB">0.00</span>
             <span id="convertorResWrd"> грн</span>
-            </div>
-<div id="ofDay">
-            <div id="Runner">
-                <span>Кожному Ранеру по  
-                <span id="convertorResultR">0.00</span>
+          
+        </div>
+            
+        <div id="ofDay">
+          
+          <div id="Runner">
+            
+           <span>Ранерам по  
+            <span id="convertorResultR">0.00</span>
             <span id="convertorResWrd"> грн </span>
-                </span>
-            </div>
-            <div id="Hostes">
-                <span> Хостес   
-                <span id="convertorResultH">0.00</span>
+            </span>
+            
+          </div>
+                
+          <div id="Hostes">
+           <span> Хостес   
+            <span id="convertorResultH">0.00</span>
             <span id="convertorResWrd"> грн</span>
                 </span>
-            </div>
-</div>
-   </div>
+           </div>
+        </div>
+        
             <span id="workDay">В будні дні хостес й ранери не працюють</span>
+            
+   </div>
+   
+   
    <footer>
-      <span>by SVolovy4 on <a href="https://github.com/SVolowy4?tab=repositories">gitHub</a></span>
+     
+      <span>by SVolovy4 on 
+      <a href="https://github.com/SVolowy4?tab=repositories">gitHub
+      </a>
+      </span>
+      
    </footer>
 </body>
 </html>
