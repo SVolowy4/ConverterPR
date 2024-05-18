@@ -1,14 +1,14 @@
-const daysOfWeek = [
-   680, 270, 270, 270, 330, 450, 680
+let daysOfWeek = [
+   560, 270, 270, 270, 300, 350, 560
 ]
-const date = new Date()
-const today = date.getDay()
+let date = new Date()
+let today = date.getDay()
 
-const howMuch = document.getElementById('howMuch')
-const resultOfCalc = document.getElementById('resultNum')
 
 function count() {
-   let total = daysOfWeek[today] / howMuch.value
+    const howMuch = document.getElementById('howMuch')
+    const resultOfCalc = document.getElementById('resultNum')
+    let total = daysOfWeek[today] / howMuch.value
 
    resultOfCalc.textContent = total.toFixed(2)
 }
@@ -16,28 +16,31 @@ function count() {
 /****************CONVERTOR */
 
 const input = document.getElementById('convertorHowMuch')
-const total = document.getElementById('total')
 const convertorResultZ = document.getElementById('convertorResultZ')
 const convertorResultK = document.getElementById('convertorResultK')
 const convertorResultB = document.getElementById('convertorResultB')
 const convertorResultR = document.getElementById('convertorResultR')
 const convertorResultH = document.getElementById('convertorResultH')
+const total = document.getElementById('total')
 const ofDay = document.getElementById('ofDay')
 const workDay = document.getElementById('workDay')
-const deathBlock = document.getElementById('Death')
+const deathBlock = document.getElementById('deathBlock')
 const deathdeathAnchor = document.getElementById('deathAnchor')
-const kitchenBlock = document.getElementById('Kitchen')
+const kitchenBlock = document.getElementById('kitchenBlock')
 const kitchenAnchor = document.getElementById('kitchenAnchor')
-const barBlock = document.getElementById('Bar')
+const barBlock = document.getElementById('barBlock')
 const barAnchor = document.getElementById('barAnchor')
 
+
+
 if(today == 0 || today == 6) {
-  ofDay.style.display = "block"
-  workDay.style.display = "none"
+    ofDay.style.display = "block"
+    workDay.style.display = "none"
 } else {
-  ofDay.style.display = "none"
-  workDay.style.display = "block"
+    ofDay.style.display = "none"
+    workDay.style.display = "block"
 }
+
 
 
 function convert() {
@@ -51,9 +54,8 @@ function convert() {
    convertorResultR.textContent = tipsforR.toFixed(2);
    let tipsforH = input.value * (0.05 / 100);
    convertorResultH.textContent = tipsforH.toFixed(2);
-let sum = tipsforZ+tipsforB+tipsforF+tipsforH+tipsforR;
-   total.textContent = sum.toFixed(2)
-let sumOfWorkDay = sum - (tipsforH+tipsforR);
+   let sum = tipsforZ+tipsforB+tipsforF+tipsforH+tipsforR;
+   let sumOfWorkDay = sum - (tipsforH+tipsforR)
    if (today == 0 || today ==6) {
        total.textContent = sum.toFixed(2)
    } else {
@@ -61,21 +63,23 @@ let sumOfWorkDay = sum - (tipsforH+tipsforR);
    }
 }
 
+
+
 deathAnchor.addEventListener('click', event => (
     
-    deathAnchor.textContent = "Сплачено на Смерть русні"
+    deathBlock.textContent = "✅СПЛАЧЕНО на смерть русні"
     
     ))
     
 kitchenAnchor.addEventListener('click', event => (
     
-    kitchenAnchor.textContent = "Сплачено кондитерам та кухарям"
+    kitchenBlock.textContent = "✅СПЛАЧЕНО кондитерам та кухарям "
     
     ))
     
 barAnchor.addEventListener('click', event => (
 
-    barBlock.textContent = "Сплачено барменам та касиру"
+    barBlock.textContent = "✅СПЛАЧЕНО барменам та касиру"
 
 ))
 
