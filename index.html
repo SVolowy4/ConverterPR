@@ -12,7 +12,11 @@
 </head>
 <body>
   
-  <div id="calculatorContainer">
+  <div class="wrapper">
+    
+    <div class="main">
+  
+      <div id="calculatorContainer">
     
     <div id="calculatorTitle">
       <h1>На господинь:</h1>
@@ -20,12 +24,25 @@
     
     <div id="calculator">
       
+      <div>
       <span id="words">З </span>
       <input 
       id="howMuch" 
       type="number" 
       placeholder="0">
       <span id="words"> фіців</span>
+      </div>
+      
+      <!--
+      <div>
+      <span id="words">мінус </span>
+      <input 
+      id="howMuchMinus" 
+      type="number" 
+      placeholder="0">
+      <span id="words"> фіц(и)</span>
+      </div>
+      -->
       
       <div>
         
@@ -46,7 +63,7 @@
       <hr>
       
       
-  <div id="convertorContainer">
+      <div id="convertorContainer">
     
     <div id="conventorTitle">
       <h1>Конвертатор<br/>ТовароОбігу</h1>
@@ -141,12 +158,18 @@
                 </span>
            </div>
         </div>
-        
+        <!--
             <span id="workDay">В будні дні хостес й ранери не працюють</span>
-            
+            -->
+          <button id="btnShow" onclick="showOfDay()">Якщо є ранери/хостес</button>
+          <button id="btnHide" onclick="hideOfDay()">Без ранерів/хостес</button>
    </div>
-   
-   
+  </div> 
+  
+    </div>
+    
+  </div>
+  
    <footer>
      
       <span>by SVolovy4 on 
