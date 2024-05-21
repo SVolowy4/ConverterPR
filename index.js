@@ -12,7 +12,6 @@ function count() {
     let total = daysOfWeek[today] / howMuch.value
 
    resultOfCalc.textContent = total.toFixed(2)
-   return resultOfCalc;
 }
 /*
 function count() {
@@ -81,7 +80,7 @@ function showOfDay() {
 
 function hideOfDay() {
   ofDay.style.display = "none";
-  total.textContent = convert()[3].toFixed(2)
+  total.textContent = convert()[3].toFixed(2);
   btnShow.style.display = "block";
   btnHide.style.display = "none";
 }
