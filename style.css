@@ -3,14 +3,22 @@
    padding: 0;
 }
 
-body {
+html, body {
+  height: 100%;
    background-color: #222831;
    font-family: "Russo One", sans-serif;
    color: #EEEEEE;
 }
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  flex: 1 1 auto;
+}
 #calculatorContainer {
    text-align: center;
-   margin-top: 20px;
 }
 
 #calculator {
@@ -51,11 +59,16 @@ body {
    font-size: 15px;
 }
 
+hr {
+  height: 20px;
+  background-color: black;
+}
+
 /******************CONVERTER************************************/
 
 #convertorContainer {
    text-align: center;
-   margin-top: 50px;
+   margin-top: 10px;
 }
 
 #convertor {
@@ -178,13 +191,25 @@ a {
    text-decoration: none;
    color: aquamarine;
 }
-
-#end {
-    text-align: left;
+#ofDay {
+  display: none;
 }
 #workDay {
     background: seagreen;
     padding: 0 20px;
+}
+#btnShow {
+  width: 100%;
+   height: 50px;
+   background-color: #76ABAE;
+   font-family: "Russo One", sans-serif;
+}
+#btnHide {
+  width: 100%;
+   height: 50px;
+   background-color: #76ABAE;
+   font-family: "Russo One", sans-serif;
+   display: none;
 }
 
 /**********************************FOOTER***/
