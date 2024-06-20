@@ -1,12 +1,31 @@
+/*СЛова тонкі прості*/
+@font-face {
+   font-family: 'open_sansregular';
+   src: url('./fonts/openSansReg/opensans-regular-webfont.woff2') format('woff2'),
+        url('./fonts/openSansReg/opensans-regular-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+
+}
+
+/*Цифри тонкі похилені*/
+@font-face {
+   font-family:'open_sansextrabold_italic';
+   src: url('./fonts/openSansItalicBold/opensans-extrabolditalic-webfont.woff2') format('woff2'),
+        url('./fonts/openSansItalicBold/opensans-extrabolditalic-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
 * {
    margin: 0;
    padding: 0;
 }
 
 html, body {
-  height: 100%;
+   font-family: 'open_sansextrabold_italic';
+   height: 100%;
    background-color: #222831;
-   font-family: "Russo One", sans-serif;
    color: #EEEEEE;
 }
 .wrapper {
@@ -40,7 +59,7 @@ html, body {
    width: 100%;
    height: 50px;
    background-color: #76ABAE;
-   font-family: "Russo One", sans-serif;
+   font-family: 'open_sansregular';
    font-size: 30px;
    color: black;
    border: outset;
@@ -91,7 +110,6 @@ hr {
 #convertorButton {
    height: 50px;
    background-color: #76ABAE;
-   font-family: "Russo One", sans-serif;
    font-size: 30px;
    color: black;
 }
@@ -202,13 +220,11 @@ a {
   width: 100%;
    height: 50px;
    background-color: #76ABAE;
-   font-family: "Russo One", sans-serif;
 }
 #btnHide {
   width: 100%;
    height: 50px;
    background-color: #76ABAE;
-   font-family: "Russo One", sans-serif;
    display: none;
 }
 
