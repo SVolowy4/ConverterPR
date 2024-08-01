@@ -56,9 +56,9 @@ if(today == 0 || today == 6) {
 function convert() {
    let tipsforZ = input.value * (0.25/100);
    convertorResultZ.textContent = tipsforZ.toFixed(2);
-   let tipsforF = input.value * (0.25/100);
+   let tipsforF = input.value * (0.2/100);
    convertorResultK.textContent = tipsforF.toFixed(2);
-   let tipsforB = input.value * (0.5 / 100);
+   let tipsforB = input.value * (0.4 / 100);
    convertorResultB.textContent = tipsforB.toFixed(2);
    let tipsforR = input.value * (0.1 / 100);
    convertorResultR.textContent = tipsforR.toFixed(2);
