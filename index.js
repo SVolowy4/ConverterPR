@@ -86,7 +86,7 @@ function hideOfDay() {
 
 deathAnchor.addEventListener('click', event => (
     
-    deathBlock.textContent = "✅СПЛАЧЕНО на смерть русні"
+    deathBlock.textContent = "✅ВІДПРАВЛЕНО на смерть русні (перевір у транзакціях свого банку)"
     
     ))
     
