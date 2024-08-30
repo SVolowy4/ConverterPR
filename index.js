@@ -92,13 +92,13 @@ deathAnchor.addEventListener('click', event => (
     
 kitchenAnchor.addEventListener('click', event => (
     
-    kitchenBlock.textContent = "✅СПЛАЧЕНО кондитерам та кухарям "
+    kitchenBlock.textContent = "✅ВІДПРАВЛЕНО КУХНЯ/КОНДИТЕРИ (перевір у транзакціях свого банку)"
     
     ))
     
 barAnchor.addEventListener('click', event => (
 
-    barBlock.textContent = "✅СПЛАЧЕНО барменам та касиру"
+    barBlock.textContent = "✅ВІДПРАВЛЕНО БАР/КАССА (перевір у транзакціях свого банку)"
 
 ))
 
