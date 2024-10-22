@@ -1,5 +1,5 @@
 let daysOfWeek = [
-   700, 300, 300, 300, 350, 430, 700
+   570, 300, 300, 300, 350, 430, 570
 ]
 let date = new Date()
 let today = date.getDay()
