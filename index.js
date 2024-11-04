@@ -1,3 +1,4 @@
+console.log('123')
 let daysOfWeek = [
    570, 300, 300, 300, 350, 430, 570
 ]
