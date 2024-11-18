@@ -55,15 +55,15 @@ if(today == 0 || today == 6) {
 
 
 function convert() {
-   let tipsforZ = input.value * (0.25/100);
+   let tipsforZ = input.value * (5/100);
    convertorResultZ.textContent = tipsforZ.toFixed(2);
-   let tipsforF = input.value * (0.2/100);
+   let tipsforF = input.value * (5/100);
    convertorResultK.textContent = tipsforF.toFixed(2);
-   let tipsforB = input.value * (0.4 / 100);
+   let tipsforB = input.value * (5 / 100);
    convertorResultB.textContent = tipsforB.toFixed(2);
-   let tipsforR = input.value * (0.1 / 100);
+   let tipsforR = input.value * (2.6 / 100);
    convertorResultR.textContent = tipsforR.toFixed(2);
-   let tipsforH = input.value * (0.05 / 100);
+   let tipsforH = input.value * (0.8 / 100);
    convertorResultH.textContent = tipsforH.toFixed(2);
    let sum = tipsforZ+tipsforB+tipsforF+tipsforH+tipsforR;
    let sumOfWorkDay = sum - (tipsforH+tipsforR);
