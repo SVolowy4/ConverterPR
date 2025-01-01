@@ -13,170 +13,106 @@
 <body>
   
   <div class="wrapper">
-    
     <div class="main">
-  
       <div id="calculatorContainer">
-    
-    <div id="calculatorTitle">
-      <h1>На господинь:</h1>
-    </div>
-    
-    <div id="calculator">
-      
-      <div>
-      <span id="words">З </span>
-      <input 
-      id="howMuch" 
-      type="number" 
-      placeholder="0">
-      <span id="words"> фіців</span>
-      </div>
-      
-      <!--
-      <div>
-      <span id="words">мінус </span>
-      <input 
-      id="howMuchMinus" 
-      type="number" 
-      placeholder="0">
-      <span id="words"> фіц(и)</span>
-      </div>
-      -->
-      
-      <div>
-        
-      <button 
-      id="calculatorButton" 
-      onclick="count()">Розрахувати
-      </button>
-      
-      </div>
-        
-    </div>
-         <div id="calculatorResult">
+        <div id="calculatorTitle">
+          <h1>На господинь:</h1>
+        </div>
+        <div id="calculator">
+          <div>
+            <span id="words">З </span>
+            <input 
+              id="howMuch" 
+              type="number" 
+              placeholder="0">
+            <span id="words"> фіців</span>
+          </div>
+          <div>
+            <button
+              id="calculatorButton" 
+              onclick="count()">Розрахувати
+            </button>
+          </div>
+        </div>
+        <div id="calculatorResult">
             <span id="resultNum">0.00</span><span id="resultWrd"> грн</span>
-         </div>
-    </div>
-      
-      
-      <hr>
-      
-      
-      <div id="convertorContainer">
-    
-    <div id="conventorTitle">
-      <h1>Калькулятор <br>чайових</h1>
-    </div>
-    
-    <div id="calculator">
-      
-      <input 
-      id="convertorHowMuch" 
-      type="number" 
-      placeholder="Введи чайові">
-      
-      <div>
-        
-        <button 
-        id="calculatorButton" 
-        onclick="convert()">⇄
-        </button>
-        
+        </div>
       </div>
-      
-    </div>
-         
-      <div id="jars">
-           
-        <h1>на банки / карти = 
-          <span id="total">0</span>
-          <span> грн</span>
-        </h1>
-        
-        <div id="Death">
-          
-          <div id="deathBlock">
-            
-            <a id="deathAnchor" 
-            target="_blank" 
-            href="https://send.monobank.ua/jar/83kMwShVbB">⚰️ Смерть Русні</a>
-            
-          </div>
-          
-            <span id="convertorResultZ">0.00</span>
-            <span id="convertorResWrd"> грн</span>
-            
+  <hr>
+      <div id="convertorContainer">
+        <div id="conventorTitle">
+          <h1>Калькулятор чайових</h1>
         </div>
-            
-        <div id="Kitchen">
-                
-          <div id="kitchenBlock">
-            
-            <a id="kitchenAnchor" 
-             href="https://send.monobank.ua/jar/9bBSCWEDDA">🥘 Кухня / Кондитери 
-             </a>
-          
+        <div id="calculator">
+          <input 
+            id="convertorHowMuch" 
+            type="number" 
+            placeholder="Введи чайові">
+          <div>
+            <button 
+              id="calculatorButton" 
+              onclick="convert()">⇄
+            </button>
           </div>
-              
-          <span id="convertorResultK">0.00
-           </span>
-          <span id="convertorResWrd"> грн</span>
-            
         </div>
-            
-        <div id="Bar">
-          
-          <div id="barBlock">
-            
-            <a id="barAnchor" 
-          href="https://send.monobank.ua/9qLk4HnKWM">☕ Бар / Каса 
-            </a>
-            
+        <div id="jars">
+          <h1>на банки / карти = 
+            <span id="total">0</span>
+            <span> грн</span>
+          </h1>
+          <div id="Death">
+            <div id="deathBlock">
+              <a id="deathAnchor" 
+              target="_blank" 
+              href="https://send.monobank.ua/jar/83kMwShVbB">⚰️ Смерть Русні</a>
+            </div>
+              <span id="convertorResultZ">0.00</span>
+              <span id="convertorResWrd"> грн</span>
           </div>
-          
-            <span id="convertorResultB">0.00</span>
-            <span id="convertorResWrd"> грн</span>
-          
-        </div>
-            
-        <div id="ofDay">
-          
-          <div id="Runner">
-            
-           <span>Ранеру
-            <span id="convertorResultR">0.00</span>
-            <span id="convertorResWrd"> грн </span>
+          <div id="Kitchen">
+            <div id="kitchenBlock">
+              <a id="kitchenAnchor" 
+              href="https://send.monobank.ua/jar/9bBSCWEDDA">🥘 Кухня / Кондитери 
+              </a>
+            </div>
+            <span id="convertorResultK">0.00
             </span>
-            
-          </div>
-                
-          <div id="Hostes">
-           <span> Хостес   
-            <span id="convertorResultH">0.00</span>
             <span id="convertorResWrd"> грн</span>
-                </span>
-           </div>
+          </div>
+          <div id="Bar">
+            <div id="barBlock">
+              <a id="barAnchor" 
+            href="https://send.monobank.ua/9qLk4HnKWM">☕ Бар / Каса 
+              </a>
+            </div>
+              <span id="convertorResultB">0.00</span>
+              <span id="convertorResWrd"> грн</span>
+          </div>
+          <div id="ofDay">
+            <div id="Runner">
+              <span>Ранеру
+                <span id="convertorResultR">0.00</span>
+                <span id="convertorResWrd"> грн </span>
+              </span>
+            </div>
+            <div id="Hostes">
+              <span> Хостес   
+                <span id="convertorResultH">0.00</span>
+                <span id="convertorResWrd"> грн</span>
+              </span>
+            </div>
+          </div>
+            <button id="btnShow" onclick="showOfDay()">↕️Якщо є ранер/хостес↕️</button>
+            <button id="btnHide" onclick="hideOfDay()">↕️Без ранера/хостес↕️</button>
         </div>
-        <!--
-            <span id="workDay">В будні дні хостес й ранери не працюють</span>
-            -->
-          <button id="btnShow" onclick="showOfDay()">↕️Якщо є ранер/хостес↕️</button>
-          <button id="btnHide" onclick="hideOfDay()">↕️Без ранера/хостес↕️</button>
-   </div>
-  </div> 
-  
+      </div> 
     </div>
-    
   </div>
-  
    <footer>
-     
       <span>by SVolovy4 on 
       <a href="https://github.com/SVolowy4?tab=repositories">gitHub
       </a>
       </span>
-      
    </footer>
 </body>
 </html>
