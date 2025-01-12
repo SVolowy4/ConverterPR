@@ -231,6 +231,7 @@ a {
 /**********************************FOOTER***/
 
 footer {
+   background-color: inherit;
    position: sticky;
    bottom: 0;
    text-align: center;
