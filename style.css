@@ -127,6 +127,7 @@ footer a:hover {
 }
 
 /*Цифри тонкі похилені*/
+/*
 @font-face {
    font-family:'open_sansextrabold_italic';
    src: url('./fonts/openSansItalicBold/opensans-extrabolditalic-webfont.woff2') format('woff2'),
@@ -200,9 +201,9 @@ hr {
   height: 20px;
   background-color: black;
 }
-
+*/
 /******************CONVERTER************************************/
-
+/*
 #convertorContainer {
    text-align: center;
    margin-top: 10px;
@@ -345,9 +346,9 @@ a {
    background-color: #76ABAE;
    display: none;
 }
-
+*/
 /**********************************FOOTER***/
-
+/*
 footer {
    background-color: inherit;
    position: sticky;
