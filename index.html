@@ -1,4 +1,60 @@
 <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css" />
+  <title>Калькулятори чайових</title>
+</head>
+
+<body>
+<h1 id="one">Закинь на господинь</h1>
+<div class="container">
+  <div class="tools">
+    <span id="words">З </span>
+    <input id="howMuch" type="number" placeholder="0">
+    <span id="words"> фіців</span>
+    <button id="calculatorButton" onclick="count()">Розрахувати</button>
+  </div>
+  <div id="calculatorResult">
+    <span class="total" id="resultNum">0.00</span><span id="resultWrd"> грн</span>
+  </div>
+</div>
+<h1 id="two">Конвертер</h1>
+<div class="container">
+  <div class="tools">
+    <div class="tools__input">
+      <input type="number" id="input" placeholder="shake">
+    </div>
+    <div class="tools__button">
+      <button id="button">Розрахувати</button>
+    </div>
+  </div>
+  <div class="list-links" id="listLinks">
+    <!--
+    <div class="link">
+      <div class="link-anchor">
+        <a href="#">link</a>
+      </div>
+      <div class="link-total">
+        0
+      </div>
+    </div>
+    -->
+   </div>
+  </div>
+ <footer>
+   <a href="#one">Закинь на господинь</a>
+   <a href="#two">Конвертер</a>
+ </footer>
+<script src="index.js"></script>
+</body>
+
+</html>
+
+<!--
+<!DOCTYPE html>
 <html lang="en">
 <head>
    <meta charset="UTF-8">
@@ -116,3 +172,4 @@
    </footer>
 </body>
 </html>
+-->
