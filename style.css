@@ -1,4 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+input, button, a {
+  display: inline-block;
+}
+
+body {
+  font-style: Tahoma, sans-serif, italic;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+h1 {
+  border-bottom: 1px solid white;
+}
+.container {
+  margin: 0 auto;
+  width: 350px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tools {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+span {
+  font-size: 1.5rem;
+}
+input {
+  width: 100px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: inherit;
+  color: white;
+  outline: none;
+}
+button {
+  padding: 5px;
+  font-size: 1.2rem;
+  background-color: inherit;
+  color: white;
+  border: 1px solid white;
+}
+.list-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.link {
+  width: 100%;
+  display: flex;
+  font-size: 1.5rem;
+  align-items: center;
+  border: 1px solid white;
+  padding: 5px;
+}
+.link a {
+  text-decoration: none;
+  color: white;
+}
+.link-anchor {
+  text-align: start;
+  flex: 2;
+}
+.link a:hover {
+  color: darkgreen;
+}
+.link-total {
+  flex: 1;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.next-button {
+  width: 100%;
+}
+.next-button button {
+  width: 100px;
+}
+.total {
+  width: 280px;
+  text-align: end;
+  font-weight: bold;
+}
+footer {
+  height: 2.5rem;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top: 2px solid white;
+  background-color: inherit;
+}
+footer a {
+  border: 1px solid white;
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem;
+}
+footer a:hover {
+  color: darkgreen;
+}
+
 /*СЛова тонкі прості*/
+/*
 @font-face {
    font-family: 'open_sansregular';
    src: url('./fonts/openSansReg/opensans-regular-webfont.woff2') format('woff2'),
@@ -236,3 +354,4 @@ footer {
    bottom: 0;
    text-align: center;
 }
+*/
