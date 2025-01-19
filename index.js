@@ -1,4 +1,72 @@
+let daysOfWeek = [
+   570, 300, 300, 300, 350, 430, 570
+]
+let date = new Date()
+let today = date.getDay()
 
+
+function count() {
+    const howMuch = document.getElementById('howMuch')
+    const resultOfCalc = document.getElementById('resultNum')
+    let total = daysOfWeek[today] / howMuch.value
+
+   resultOfCalc.textContent = total.toFixed(2)
+}
+
+
+/////----Конвертер ----////////
+
+const objects = [
+  { name: 'Смерть Русні', procent: 5 / 100, link: 'https://send.monobank.ua/jar/83kMwShVbB' },
+  { name: 'Бар/Касса', procent: 5 / 100, link: 'https://send.monobank.ua/9qLk4HnKWM' },
+  { name: 'Кухня/Кондитери', procent: 5 / 100, link: 'https://send.monobank.ua/jar/9bBSCWEDDA' },
+  { name: 'Ранер', procent: 2.6 / 100, link: '' },
+  { name: 'Хостес', procent: 0.8 / 100, link: '' }
+]
+
+
+const input = document.getElementById("input");
+const button = document.getElementById("button");
+const list = document.getElementById("listLinks");
+
+function calc(object) {
+  return Number((object.procent * input.value).toFixed(2));
+}
+
+function renderList(idsToInclude) {
+  list.innerHTML = '';
+  const array = [];
+  
+  idsToInclude.forEach(id => {
+    const object = objects[id];
+    const template = `
+      <div class="link">
+        <div class="link-anchor">
+          <a href="${object.link}" target="_blank">${object.name}</a>
+        </div>
+        <div class="link-total">
+          ${calc(object)}
+        </div>
+      </div>
+    `;
+    list.innerHTML += template;
+    array.push(calc(object));
+  });
+
+  const sum = array.reduce((acc, value) => acc + value, 0);
+  list.innerHTML += `
+    <div class="next-button">
+      <button onclick="renderList([0, 1, 2, 3])">+ Ранер</button>
+      <button onclick="renderList([0, 1, 2, 4])">+ Хостес</button>
+      <button onclick="renderList([0, 1, 2, 3, 4])">Разом</button>
+    </div>
+    <div class="total">
+      <p>Сума: ${sum.toFixed(2)}</p>
+    </div>
+  `;
+}
+
+button.addEventListener('click', () => renderList([0, 1, 2]));
 
 /*
 console.log('123')
