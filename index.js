@@ -16,6 +16,7 @@ function count() {
 
    resultOfCalc.textContent = total.toFixed(2)
 }
+*/
 /*
 function count() {
     const howMuchMinus = document.getElementById('howMuchMinus')
@@ -25,8 +26,9 @@ function count() {
 }
 */
 
-/****************CONVERTOR */
 
+/****************CONVERTOR */
+/*
 const input = document.getElementById('convertorHowMuch')
 const convertorResultZ = document.getElementById('convertorResultZ')
 const convertorResultK = document.getElementById('convertorResultK')
@@ -44,7 +46,7 @@ const barBlock = document.getElementById('barBlock')
 const barAnchor = document.getElementById('barAnchor')
 const btnShow = document.getElementById('btnShow')
 const btnHide = document.getElementById('btnHide')
-
+*/
 
 /*
 if(today == 0 || today == 6) {
@@ -56,7 +58,7 @@ if(today == 0 || today == 6) {
 }
 */
 
-
+/*
 function convert() {
    let tipsforZ = input.value * (5/100);
    convertorResultZ.textContent = tipsforZ.toFixed(2);
