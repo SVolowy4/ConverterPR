@@ -4,13 +4,18 @@ let daysOfWeek = [
 let date = new Date()
 let today = date.getDay()
 
+let container = document.getElementById('container')
 
 function count() {
+container.innerHTML = ''
     const howMuch = document.getElementById('howMuch')
     const resultOfCalc = document.getElementById('resultNum')
     let total = daysOfWeek[today] / howMuch.value
 
    resultOfCalc.textContent = total.toFixed(2)
+container.innerHTML += `
+    <img src="IMG_20250120_191925_134.jpg" width="250" alt="">
+   `
 }
 
 
