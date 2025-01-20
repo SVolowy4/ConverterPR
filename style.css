@@ -26,6 +26,10 @@ h1 {
   flex-direction: column;
   justify-content: center;
 }
+.container a {
+  text-decoration: none;
+  color: white;
+}
 .tools {
   display: flex;
   align-items: center;
