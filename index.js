@@ -22,18 +22,14 @@ container.innerHTML += `
 /////----Конвертер ----////////
 
 const objects = [
-  { name: 'Смерть Русні', procent: 5 / 100, link:
-'https://send.monobank.ua/jar/83kMwShVbB' },
+  { name: 'Смерть Русні', procent: 5 / 100, link: 'https://t.me/banks_cards_sofia/5' },
   { name: 'Бар/Касса', procent: 5 / 100, 
-link: 
-'https://send.monobank.ua/9qLk4HnKWM' },
-  { name: 'Кухня/Кондитери', procent: 5 / 100, link: 'https://send.monobank.ua/jar/9bBSCWEDDA' },
+link: 'https://t.me/banks_cards_sofia/7' },
+  { name: 'Кухня/Кондитери', procent: 5 / 100, link: 'https://t.me/banks_cards_sofia/6' },
   { name: 'Ранер', procent: 2.6 / 100, 
-link: 
-'https://t.me/+cgbNeZkPAhE4ZmEy' },
+link: 'https://t.me/banks_cards_sofia/9' },
   { name: 'Хостес', procent: 0.8 / 100, 
-link: 
-'https://t.me/+cgbNeZkPAhE4ZmEy' }
+link: 'https://t.me/banks_cards_sofia/8' }
 ]
 
 
