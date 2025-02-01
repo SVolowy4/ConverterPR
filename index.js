@@ -53,7 +53,7 @@ function renderList(idsToInclude) {
           <a href="${object.link}" target="_blank">${object.name}</a>
         </div>
         <div class="link-total">
-          ${calc(object)}
+          ${calc(object)} грн
         </div>
       </div>
     `;
