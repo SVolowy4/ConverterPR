@@ -29,7 +29,7 @@ link: 'https://send.monobank.ua/9qLk4HnKWM' },
   { name: 'Ранер', procent: 2.6 / 100, 
 link: 'https://t.me/+cgbNeZkPAhE4ZmEy'},
   { name: 'Хостес', procent: 0.8 / 100, 
-link: 'https://send.monobank.ua/6J3vq8Gun5' }
+link: 'https://t.me/+cgbNeZkPAhE4ZmEy' }
 ]
 
 
