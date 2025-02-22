@@ -27,9 +27,9 @@ const objects = [
 link: 'https://send.monobank.ua/9qLk4HnKWM' },
   { name: 'Кухня/Кондитери', procent: 5 / 100, link: 'https://send.monobank.ua/jar/9bBSCWEDDA' },
   { name: 'Ранер', procent: 2.6 / 100, 
-link: 'https://send.monobank.ua/YcS9NYuQp'},
+link: 'https://t.me/+cgbNeZkPAhE4ZmEy'},
   { name: 'Хостес', procent: 0.8 / 100, 
-link: 'https://send.monobank.ua/3XyV5gTj4f' }
+link: 'https://t.me/+cgbNeZkPAhE4ZmEy' }
 ]
 
 
