@@ -24,7 +24,7 @@ container.innerHTML += `
 const objects = [
   { name: 'Смерть Русні', procent: 5 / 100, link: 'https://send.monobank.ua/jar/83kMwShVbB' },
   { name: 'Бар/Касса', procent: 5 / 100, 
-link: 'https://send.monobank.ua/9qLk4HnKWM' },
+link: 'https://send.monobank.ua/5fzNTCo5aE' },
   { name: 'Кухня/Кондитери', procent: 5 / 100, link: 'https://send.monobank.ua/jar/9bBSCWEDDA' },
   { name: 'Ранер', procent: 2.6 / 100, 
 link: 'https://t.me/+cgbNeZkPAhE4ZmEy'},
